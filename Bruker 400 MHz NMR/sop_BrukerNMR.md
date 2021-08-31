@@ -25,10 +25,10 @@ MB | v20210831
 ## Processing Spectra
 1. Find your spectrum within TopSpin.
 1. To integrate spectra, click "Analyse" followed by "Integrate."  Select "Manual-Integrate" to bring up the integration toolbar.
-1. The software defaults to allowing the user to define a new integral.  It may be necessary to delete an automatically integrated peak.  This can be done by clicking the red integration value so that a yellow-green color is under the integration value and then clicking "Delete selected regions."  Holding the left mouse button, click and drag from left to right of the peak you want to integrate.  Let go of the left mouse button when you reach the end of the peak.
+1. It may be necessary to delete an automatically integrated peak.  This can be done by clicking the red integration value so that a yellow-green color is under the integration value and then clicking "Delete selected regions."  Holding the left mouse button, click and drag from left to right of the peak you want to integrate.  Let go of the left mouse button when you reach the end of the peak.
 1. To change the integral value, right-click on the current integral value and select "Calibrate Current Integral."  Within the popup window, change the value of your integral to the desired value.
 1. Peak locations may be identified by clicking "Pick Peaks."  After the peaks have been picked, press "Return, save changes."
-1. It may be necessary to adjust the x-axis of your plot.  This can be accomplished by clicking "PROCPARS" followed by "Peak" in the left-hand toolbar.  Change the values for the labels of "F1P" and "F2P" to be your upper and lower limit for the x-axis, respectively.
+1. Adjusting the x-axis of your plot can be accomplished by clicking "PROCPARS" followed by "Peak" in the left-hand toolbar.  Change the values for the labels of "F1P" and "F2P" to be your upper and lower limit for the x-axis, respectively.
 
 ## Printing Spectra
 1. To print your spectra, select the "Plot" tab.  Under layout, use "Proton Default" if it is not already selected.
