@@ -11,6 +11,7 @@ MB | v20210831
 1. The subsequent window is where acquisitions are created and submitted for analysis.
 
 ## Acquire Spectra
+1. Obtain a spinner and place your NMR sample tube inside.  Use the depth gauge (with no force) to set your tube depth to the appropriate level.
 1. Place your prepared sample in an autosampler location.  Take note of the number within the autosampler.  Location 24 is reserved for the autocalibration sample and should never be removed.
 1. Within the Experiment Table window, click the number under the "Holder" column followed by "Add."
 1. Take note of the location listed under "Disk" as this is where your spectrum will be saved.  Leave the value under the "NO." column as is.
