@@ -33,4 +33,13 @@ MB | v20210831
 
 ## Printing Spectra
 1. To print your spectra, select the "Plot" tab.  Under layout, use "Proton Default" if it is not already selected.
-1.  In the top-right corner of TopSpin you will have the option to send the file to a printer or print as a PDF.
+1. In the top-right corner of TopSpin you will have the option to send the file to a printer or print as a PDF.
+
+## Retrieving Samples
+1. With your analysis complete, you can retrieve your sample by returning to the TopSpin window.
+1. From here, navigate to the "Acquire" tab.
+1. Click "Sample" followed by "Eject sample with sample changer."  The autosampler will remove your sample from the instrument.
+1. A sample will then need to be reinserted into the instrument.
+1. Click "Sample" follwed by "Insert sample with sample changer."
+1. A new window will show asking for the holder position.  Use the value of 24 for the autocalibrate sample.
+1. With the autocalibrate sample inserted, the software can be closed. 
