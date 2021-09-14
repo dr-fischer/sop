@@ -30,7 +30,7 @@ MB | v20210831
 1. To change the integral value, right-click on the current integral value and select "Calibrate Current Integral."  Within the popup window, change the value of your integral to the desired value.
 1. Peak locations may be identified by clicking "Pick Peaks."  After the peaks have been picked, press "Return, save changes."
 1. Adjusting the x-axis of your plot can be accomplished by clicking "PROCPARS" followed by "Peak" in the left-hand toolbar.  Change the values for the labels of "F1P" and "F2P" to be your upper and lower limit for the x-axis, respectively.
-<div style="page-break-after: always;"></div>
+
 ## Printing Spectra
 1. To print your spectra, select the "Plot" tab.  Under layout, use "Proton Default" if it is not already selected.
 1. In the top-right corner of TopSpin you will have the option to send the file to a printer or print as a PDF.
