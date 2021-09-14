@@ -7,7 +7,7 @@ v20200303
 
 The Rigaku MiniFlex XRD is housed in the Department of Chemistry and Physics, Natural Science Building Room 226.
 
-The instrument is meant to be used to support classroom/laboratory activities and for research purposes.  All individuals, whether faculty or student, should obtain X-ray safety training from Al Fischer, Instrumentation Specialist, prior to use.  All users are required to document that they have received proper training!  Likewise, all users are required to sign in using the log sheet in this binder.
+The instrument is meant to be used to support classroom/laboratory activities and for research purposes.  All individuals, whether faculty or student, should obtain X-ray safety training from Matt Burleson, Instrumentation Specialist, prior to use.  All users are required to document that they have received proper training!  Likewise, all users are required to sign in using the log sheet in this binder.
 
 Access to the XRD must be restricted according to state law.  This is done with password protection on the computer.  Users should not share the password with anyone and should log out when they've completed their run.  Additionally, individuals who have not had training should never enter the X-ray safety zone marked on the floor in NSB 226.
 
@@ -80,11 +80,11 @@ If you execute an emergency stop, immediately notify one of the emergency contac
 
 | Contact                         | Role                                                |   Office    | Email                | Phone            |
 | ------------------------------- | --------------------------------------------------- |:-----------:| -------------------- | ---------------- |
-| **Al Fischer**                  | **Instrumentation Specialist, XRD Authorized User** | **NSB 209** | **dfischer@wcu.edu** | **828-227-2695** |
-| Wes Bintz                       | Research Operations Manager, Arts & Sciences        |   NSB 204   | wwbintz@wcu.edu      | 828-227-2270     |
-| David Evanoff                   | Department Head, CHPH                               |  NSB 231A   | devanoff@wcu.edu     | 828-227-3667     |
+| **Matt Burleson**               | **Instrumentation Specialist, XRD Authorized User** | **AP 346**  | **mburleson@wcu.edu**| **828-227-2239** |
+| Wes Bintz                       | Research Operations Manager, Arts & Sciences        |   AP 221    | wwbintz@wcu.edu      | 828-227-2270     |
+| David Evanoff                   | Department Head, CHPH                               |  AP 112     | jamiewallen@wcu.edu  | 828-227-3667     |
 | Jon Maddy                       | Director, Safety and Risk Management                |      -      | jmaddy@wcu.edu       | 828-227-7442     |
-| Sharon Tiqhe                    | Lab Safety Officer, Safety and Risk Management      |      -      | smtighe@wcu.edu      | 828-227-7443     |
+|                                 | Lab Safety Officer, Safety and Risk Management      |      -      |                      | 828-227-7443     |
 | Campus Police                   | **Non-emergency**/after hours contact               |      -      | -                    | 828-227-730      |
 | Campus Dispatch                 | Fire/Medical/Police Emergency Response              |      -      | -                    | 828-227-8911     |
 | NC Radiation Protection Section | State Emergency Center                              |      -      | -                    | 800-858-0368     |
