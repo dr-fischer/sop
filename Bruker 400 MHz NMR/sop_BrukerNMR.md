@@ -1,4 +1,4 @@
-## Bruker 400 MHz NMR Spectrophotometer Operating Instructions
+## Bruker 400 MHz NMR Spectrometer Operating Instructions
 MB | v20210922
 
 ### Single sample analysis
