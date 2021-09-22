@@ -61,4 +61,5 @@ MB | v20210922
 1. From here, navigate to the "Acquire" tab.
 1. Click "Sample" followed by "Insert sample with sample changer."
 1. A new window will appear asking for the holder position.  Use the value of 24 for the autocalibrate sample.
-1. With the autocalibrate sample inserted, the software can be closed.
+
+ > Please do not close IconNMR so that the instrument performs the autocalibration at night.
