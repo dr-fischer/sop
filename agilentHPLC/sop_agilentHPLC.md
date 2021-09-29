@@ -1,6 +1,6 @@
 # Agilent 1220 Infinity LC with UV Detector
 
-> *If you encounter problems while running the instrument, please use submit an [**Instrument Incident Report**](https://docs.google.com/forms/d/e/1FAIpQLSc96MiK73kKP06KEZpR0-O7zETCLvWgQtLp_bKEynosUKqpNg/viewform) with a description of your problem.  **For urgent problems please report to Al Fischer, NS 209, dfischer@wcu.edu, x2695!***
+> *If you encounter problems while running the instrument, please use submit an [**Instrument Incident Report**](https://docs.google.com/forms/d/e/1FAIpQLSc96MiK73kKP06KEZpR0-O7zETCLvWgQtLp_bKEynosUKqpNg/viewform) with a description of your problem.  **For urgent problems please report to Matt Burleson, AP 346, mburleson@wcu.edu, x2239!***
 
 # Login
 
@@ -23,7 +23,7 @@
 1. Open the top/front cover the the HPLC and open the priming valve by turning the black knurled knob on the front of the pump a couple of turns.  This ensures no air will enter the column.
 1. Click the green **On** button In the main window of the HPLC software to turn on the pump, column heater, and lamp.
 1. After the pumps have been on for roughly 2 minutes *and you do not see air bubbles exiting the valve into the waste line*, you may close the priming valve by turning the black knob clockwise until it's fully tightened.
-1. Allow the system to run until you observe a stable absorbance baseline in the real-time read out. (You may proceed to creating a sequence while waiting, but ensure a stable baseline before running the sequence).
+1. Allow the system to run until you observe a stable absorbance baseline in the real-time read out. (You may proceed to creating a sequence while waiting, but ensure a stable baseline before running the sequence).  If necessary, the baseline can be reset to zero by right-clicking the lamp and selecting "Balance."
 
 # Prepare a Sequence
 
