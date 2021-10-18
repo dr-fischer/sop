@@ -10,7 +10,8 @@ Prior to using the instrument, the instrument should be calibrated as detailed i
 1. The software for analysis is "ITCRUN".  The buret will need to be homed if the software has been started for the first time.  Follow the onscreen instructions for this.  The software will open and you will need to wait until the status has changed to "Idle."
 1. The cells of the instrument need to be flushed prior to analysis.
 1. Using the tweezers located by the instrument, remove the reference needle plug and set it securely to the side.
-1. Using the flushing needle and syringe, flush the reference cell at least 3 - 4 times with ~1.5 mL of degassed DI water.  To flush the cell, dispense the syringe contents in and out of the cell the desired number of times.  Discard the rinsing water.
+1. Using the flushing needle and syringe, flush the reference cell at least 3 - 4 times with ~1.5 mL of degassed DI water.  DI water can be degassed by sonication or by drawing a vacuum for ~15 minutes.
+1. To flush the cell, dispense the syringe contents in and out of the cell the desired number of times.  Discard the rinsing water.
 1. Fill the reference cell with ~1.5 mL of water.  There should be no water visible once the flushing syringe has been removed.  Remove some of the volume if there is.
 1. Using the flushing syringe, remove the contents of the sample cell.
 1. Flush the sample cell with ~1,5 mL of the EDTA buffer at least twice.  Discard the EDTA rinse.
