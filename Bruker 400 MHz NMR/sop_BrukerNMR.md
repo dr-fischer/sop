@@ -1,5 +1,5 @@
 ## Bruker 400 MHz NMR Spectrometer Operating Instructions
-MB | v20210922
+MB | v20211129
 
 ### Single sample analysis
 ## Software Startup and Acquisition
@@ -52,6 +52,19 @@ MB | v20210922
 1. Peak locations may be identified by clicking "Pick Peaks."  After the peaks have been picked, press "Return, save changes."
 1. Adjusting the x-axis of your plot can be accomplished by clicking "PROCPARS" followed by "Peak" in the left-hand toolbar.  Change the values for the labels of "F1P" and "F2P" to be your upper and lower limit for the x-axis, respectively.
 
+### Advanced Processing for Spectra
+## Peak picking
+1. Peak picking can be performed by clicking "Analyse" followed by the "Pick Peaks" dropdown menu.  This menu allows peaks to be selected automatically or manually.
+1. In the event that Auto-pick is not satisfactory, select "Manual Peak Picking" to open the peak picking toolbar.
+1. Left-click and hold to drag the mouse from left to right over the range of peaks you need to pick.
+1. Under the peak picking toolbar, select "Define peak manually."  Left-click in the center of the peak you need to pick and the peak's ppm will appear in green.
+1. Zoom out and repeat this procedure as necessary for all of the necessary peaks.
+## Adjusting Peak ppm
+1. In the event that a peak's ppm needs to be edited such as setting TMS to zero, for example, the Axis Calibration will be used.
+1. Under the "Process" tab, select the "Calib. Axis" dropdown menu.
+1. Click "Manual Axis Calibration." A red cursor should now be displayed on the screen.  Left-click this cursor in the center of the peaking needing to be adjusted.  A new window will open asking for the cursor frequency in ppm.  Set this value accordingly and press "OK."  The spectrum will then be adjusted.
+
+
 ### Printing Spectra
 1. To print your spectra, select the "Plot" tab.  Under layout, use "Proton Default" if it is not already selected.
 1. In the top-right corner of TopSpin you will have the option to send the file to a printer or print as a PDF.
@@ -63,3 +76,9 @@ MB | v20210922
 1. A new window will appear asking for the holder position.  Use the value of 24 for the autocalibrate sample.
 
  > Please do not close IconNMR so that the instrument performs the autocalibration at night.
+
+### Retrieving Samples
+ 1. You can retrieve a previously analyzed spectrum within TopSpin by pressing **ctrl+f** to open the "Find data" window.
+ 1. Enter the name of your data/spectrum you'd like to retrieve and click "OK" to start the search.
+ 1. After locating the spectrum within the search results window, click "Display" to display the spectrum in TopSpin.
+ 1. You may close the search results window.
