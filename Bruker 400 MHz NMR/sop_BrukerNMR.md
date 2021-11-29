@@ -77,7 +77,7 @@ MB | v20211129
 
  > Please do not close IconNMR so that the instrument performs the autocalibration at night.
 
-### Retrieving Samples
+### Retrieving Spectra
  1. You can retrieve a previously analyzed spectrum within TopSpin by pressing **ctrl+f** to open the "Find data" window.
  1. Enter the name of your data/spectrum you'd like to retrieve and click "OK" to start the search.
  1. After locating the spectrum within the search results window, click "Display" to display the spectrum in TopSpin.
