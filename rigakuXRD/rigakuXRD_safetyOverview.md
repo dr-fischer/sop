@@ -82,9 +82,9 @@ If you execute an emergency stop, immediately notify one of the emergency contac
 | ------------------------------- | --------------------------------------------------- |:-----------:| -------------------- | ---------------- |
 | **Matt Burleson**               | **Instrumentation Specialist, XRD Authorized User** | **AP 346**  | **mburleson@wcu.edu**| **828-227-2239** |
 | Wes Bintz                       | Research Operations Manager, Arts & Sciences        |   AP 221    | wwbintz@wcu.edu      | 828-227-2270     |
-| David Evanoff                   | Department Head, CHPH                               |  AP 112     | jamiewallen@wcu.edu  | 828-227-3667     |
+| Jamie Wallen                    | Department Head, CHPH                               |  AP 112     | jamiewallen@wcu.edu  | 828-227-3667     |
 | Jon Maddy                       | Director, Safety and Risk Management                |      -      | jmaddy@wcu.edu       | 828-227-7442     |
-|                                 | Lab Safety Officer, Safety and Risk Management      |      -      |                      | 828-227-7443     |
+| Amanda Lytle                    | Lab Safety Officer, Safety and Risk Management      |      -      | alafferty@wcu.edu    | 828-227-3645     |
 | Campus Police                   | **Non-emergency**/after hours contact               |      -      | -                    | 828-227-730      |
 | Campus Dispatch                 | Fire/Medical/Police Emergency Response              |      -      | -                    | 828-227-8911     |
 | NC Radiation Protection Section | State Emergency Center                              |      -      | -                    | 800-858-0368     |
