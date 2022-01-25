@@ -1,5 +1,5 @@
 ## TA Instruments Standard Volume Isothermal Titration Calorimeter (ITC) Testing SOP
-MB | v20211005
+MB | v20220125
 Sign in to the calendar if you have not already done so.
 Prior to using the instrument, the instrument should be calibrated as detailed in the following section.
 >Note: The testing procedure can take up to three hours.
@@ -12,7 +12,7 @@ Prior to using the instrument, the instrument should be calibrated as detailed i
 1. Using the tweezers located by the instrument, remove the reference needle plug and set it securely to the side.
 1. Using the flushing needle and syringe, flush the reference cell at least 3 - 4 times with ~1.5 mL of degassed DI water.  DI water can be degassed by sonication or by drawing a vacuum for ~15 minutes.
 1. To flush the cell, dispense the syringe contents in and out of the cell the desired number of times.  Discard the rinsing water.
-1. Fill the reference cell with ~1.5 mL of water.  There should be no water visible once the flushing syringe has been removed.  Remove some of the volume if there is.
+1. Fill the reference cell with ~1.5 mL of water.  There should be no water visible once the flushing syringe has been removed.  Remove some of the volume if there is.  Replace the plug into the reference cell.
 1. Using the flushing syringe, remove the contents of the sample cell.
 1. Flush the sample cell with ~1,5 mL of the EDTA buffer at least twice.  Discard the EDTA rinse.
 1. Load ~1.5 mL of EDTA into the sample cell and allow this to soak within the cell for at least 5 minutes.
@@ -21,7 +21,7 @@ Prior to using the instrument, the instrument should be calibrated as detailed i
 1. Place the syringe in the black (aqueous) buret handle, and then insert the buret handle into the instrument.
 1. Set the "Stirring Rate" to 350 and press the play icon to start the stirring.
 1. Click the "Syringe Size" drop down menu and select the 250 µL syringe.
-1. The "Experiment Setup" window will now be adjusted.  Click "Setup" and the "Setup Pulses" window will open.  For the Ca-EDTA titration, change the number of injections to 25, the injection volume to 10 µL, and the injection interval to 300.  Click "Ok."
+1. The "Experiment Setup" window will now be adjusted.  Click "Setup" and the "Setup Injections" window will open.  For the Ca-EDTA titration, change the number of injections to 25, the injection volume to 10 µL, and the injection interval to 300.  Click "Ok."
 1. Ensure the "Temperature Setpoint" is at 25.
 1. Under "Experiment Details" change the value of the syringe concentration to match the value of the calcium chloride solution (taken from the label) and the cell concentration to match the label of the EDTA buffer.
 1. Under the "Equilibration" section, select "Auto Equilibrate."  Medium should be selected for the "Expected Heats."  This selection determines the statistics of the equilibration.
