@@ -1,5 +1,5 @@
 Physica Modular Compact Rheometer-101
-MB | v20220216
+MB | v20220221
 
 ### Start-up Procedure
 1.	Verify that the air pressure is 5 bar or slightly above.
@@ -55,7 +55,7 @@ MB | v20220216
 1.  The regression parameters of the calculations can be adjusted as needed using the menus within the "Advanced Regression Setup" options.
 
 ### Exporting data
-1.  To export data, click "File" followed by "Export."  To the right will open a submenu that will allow you to export the data in various formats.  Select the appropriate format and save it with a unique datafile name for easy retrieval.  Data can only be retrieved using a flash drive.
+1.  To export data, click "File" followed by "Export."  To the right will open a submenu that will allow you to export the data in various formats.  Select "Contents of Active Window."  A popup will appear.  Select "Column separated by a comma" for Data Format, device should be set to "File," and the Format Type should be "Windows Text Format."  Click "Export" to save the data as a CSV.  Data can only be retrieved using a flash drive.
 
 ### Troubleshooting
 1.	If the sample freezes (for 10% wax emulsions, it’s below 5 ℃), a sharp increase in viscosity (table will have errors) and frost forming on the measurement system will be observed. Set the temperature (in control panel) to 23 ℃ before attempting to lift the measurement system.  The Rheometer makes weird noises at different temperatures sometimes, don’t be alarmed.
