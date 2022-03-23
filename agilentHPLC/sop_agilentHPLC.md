@@ -30,6 +30,7 @@
 1. Click on the **Sequence templates** tab under *Method and Run Control* and double click the `_DEFAULT.S` to load the default template.
 1. Click **Sequence > Save Sequence As** and enter a filename to save your own copy of the template.
 1. Click on **Sequence > Sequence Parameters** and ensure the box next to **Post-run Command/Macro** is checked and `STANDBY` is shown as the command.  This will turn off the HPLC when your run finishes.
+1. Also within the Sequence Parameters window, you should create a subdirectory folder where your data will be saved.  Click "Yes" when asked if you want to create the specified directory.
 1. Open the sequence table by clicking **Sequence > Sequence Table...**.  Edit the resulting sequence table as necessary and press **OK** when finished.  Make sure you enter the autosampler location (Vial) and sample name and select the correct method for each sample.  The other fields can stay blank or remain the default values.
 
 # Run Samples
