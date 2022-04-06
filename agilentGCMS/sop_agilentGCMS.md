@@ -80,3 +80,4 @@ MB 04062022
 1. Never inject strong acids or bases or acetic acid (they may damage the column).
 1. Aim to have you maximum abundance in the chromatogram be ~2 million.
 1. Don't override the solvent delay.
+1. Never allow the oven to heat without carrier gas flow through any installed column.
