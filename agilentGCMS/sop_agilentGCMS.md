@@ -1,9 +1,12 @@
 # Agilent 7890A GC with 5975C MSD
 
-AF | 2018-09-04
+MB 04062022
 
-> *If you encounter problems while running the instrument, please use submit an [**Instrument Incident Report**](https://docs.google.com/forms/d/e/1FAIpQLSc96MiK73kKP06KEZpR0-O7zETCLvWgQtLp_bKEynosUKqpNg/viewform) with a description of your problem.  **For urgent problems please report to Al Fischer, NS 209, dfischer@wcu.edu, x2695!***
-
+> *If you encounter problems while running the instrument, please use submit an [**Instrument Incident Report**](https://docs.google.com/forms/d/e/1FAIpQLSc96MiK73kKP06KEZpR0-O7zETCLvWgQtLp_bKEynosUKqpNg/viewform) with a description of your problem.  **For urgent problems please report to Matt Burleson, AP 346, mburleson@wcu.edu, x2239!***
+# Start the Carrier Gas and Instrument
+1. On the hydrogen generator located below the instrument, press "Start."  The generator will begin to initialize.
+1. Once the generator has finished initializing, press "Open."  Allow the generator enough time to reach its pressure setpoint.
+1. The instrument can now be turned on.
 # Login
 1. Login to Windows using the username **administrator** and the password **3000hanover**.
 1. Open the ChemStation Software by selecting **GCMS Software & Usage Log** shortcut on the desktop.
@@ -60,7 +63,7 @@ AF | 2018-09-04
 
 # Save/Export
 
-1. You may print your spectra to the printer in NS-214 to paste into your lab notebook.
+1. You may print your spectra to the printer to paste into your lab notebook.
 1. To export the spectra to Excel, MATLAB, R, Python, etc., right click on the item you wish to export (e.g. the chromatogram or the mass spectrum for a specific peak) and choose **Tabulate**.  In the window that opens up, select **Copy**.  Paste the copied text into a plain text file (for example, open Notepade and press **CTRL V**), and then save the file as `your_filename.tsv`.  The format is tab-delimited.
 
 # Shutdown
@@ -70,10 +73,10 @@ AF | 2018-09-04
 1. Close the software and log out of the computer.
 
 # Keep the Instrument Safe
-1. All samples analyzed via GC-MS must boil below 250$^\circ$C unless your method is specifically designed to accomodate high-boiling point samples.
+1. All samples analyzed via GC-MS must boil below 250 ℃ unless your method is specifically designed to accommodate high-boiling point samples.
 1. The GC-MS is only for liquid (or gas) samples (unless using the headspace sampler).
 1. If you have a lot of particulates in your sample (e.g. a catalyst or drying agent), you must filter it.
 1. Never inject aqueous solutions (they may damage the column).
 1. Never inject strong acids or bases or acetic acid (they may damage the column).
-1. Aim to have you maximum abundace in the chromatogram be ~$2 \times 10^6$.
+1. Aim to have you maximum abundance in the chromatogram be ~2 million.
 1. Don't override the solvent delay.
