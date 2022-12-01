@@ -4,7 +4,7 @@
 >**For urgent problems please report to Matt Burleson, AP 346, mburleson@wcu.edu, x2239!**
 
 # Gases and Startup
-1. The TG-DTA can use either air or nitrogen as a purge gas.  The gas of choice should both be turned on prior to the following steps.  The nitrogen can be turned on using the main valve behind the Bruker IR system, and the air should be set to ~40 psi using the valve below the air purification unit.
+1. The TG-DTA can use either air or nitrogen as a purge gas.  The gas of choice should be turned on prior to the following steps.  The nitrogen can be turned on using the main valve behind the Bruker IR system, and the air should be set to ~40 psi using the valve below the air purification unit.
 1. The power switch to TG-DTA is on the front of the instrument in the lower left corner.  Upon startup, the instrument will initialize for 3 minutes.  The instrument will display "LINKwait" when ready.
 1. The air cooling control unit's power switch is on the front of the module and should also be turned on.
 
