@@ -60,6 +60,7 @@ MB 04062022
     - *To zoom*: Left click and drag; double click to zoom to extents.
     - *To view a mass spectrum*: Right click, choose **Select** and the mass spectrum is displayed below.
     - *To find the retention times*: Right click on TIC and choose **Integrate**.
+    - *To change the Y-axis from Abundance to % Relative Abundance*: Follow the step above to view a mass spectrum.  Locate the command line towards the top window and type "norm 100" followed by enter.  The spectrum will disappear.  Back in the command line, type "Draw 1,x" followed by enter to display the new spectrum.
 
 # Save/Export
 
