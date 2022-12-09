@@ -1,8 +1,8 @@
 # Thermo-Dionex ICS-1600 Ion Chromatograph
 
-AF | 2018-09-17
+120922MB01
 
-> *If you encounter problems while running the instrument, please use submit an [**Instrument Incident Report**](https://docs.google.com/forms/d/e/1FAIpQLSc96MiK73kKP06KEZpR0-O7zETCLvWgQtLp_bKEynosUKqpNg/viewform) with a description of your problem.  **For urgent problems please report to Al Fischer, NS 209, dfischer@wcu.edu, x2695!***
+> *If you encounter problems while running the instrument, please report to Matt Burleson, AP 346, mburleson@wcu.edu, x2239!***
 
 # Login
 1. If you have not done so already, open the web browser to check the instrument calendar and make sure there are no scheduling conflicts; reserve/log your time with the online form.
@@ -40,12 +40,31 @@ AF | 2018-09-17
 1. Enter the actual concentration of each analyte in your standards in the processing method window.
 1. You may explore the data in the various windows on the screen.
 
+### Editing Compounds With Component table
+1. Click on **Processing Method** at the top of the screen.
+1. Select **Component Table.**
+1. Edit the table to correspond to your data.
+1. Save the edits, and either print or export your data.
+
+### Manually Editing Compounds
+1. Within the **Data Processing** window, right-click on a band and select **Manual Peak Identification.**
+1. A new window will appear where you can manually assign the bands to correspond to your data.
+
+
+
+
+# Printing chromatograms
+
+1. Click the **Report Designer** tab to the left-hand side of the screen.
+1. Click **File** then **print.**
+1. In the pop up window, select **Integration** followed by **OK.**
+
 # Save/Export
 
 1. Select the **Report Manager** pane at the bottom of the screen.
 1. Click through the various tabs at the bottom of the window, and select the one you wish to export (the software will only export the current tab).
 1. Click on the **Chromeleon** symbol at the top left of the screen and select **Export**.
-1. Choose a destination and file type.  Remember to place your data on `NEON` for access later.
+1. Choose a destination and file type.  Remember to place your data on `Xenon` for access later.
 
 # Shutdown
 1. Turn off the suppressor by activating the slider until it reads "Off" (if it is not off already).
