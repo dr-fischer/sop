@@ -34,6 +34,7 @@ This SOP details the operation of the Agilent 1100 LC and Thermo Quantum MS as a
       ![Quat Setup Icon](quatsetupwindow.png)
 1. Click "Agilent1100" in the top toolbar followed by "Direct Control..." to open the Direct Control window shown below.
       ![Pump Direct Control Pump Window](Pumpdirectcontrol.png)
+   
 1. Change the "Flow rate" to 5.00 mL/min, and the composition to be an even split of the lines you are using.  For example, if using lines A & B, they would be set to 50:50.  If using all four lines, they would be 25% each.
 1. Click "Start Pump" to begin purging the mobile phase.  The pump may take a moment to start pumping.
 1. Allow the pump to purge for ~5 mins.
