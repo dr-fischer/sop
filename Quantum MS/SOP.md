@@ -42,6 +42,7 @@ This SOP details the operation of the Agilent 1100 LC and Thermo Quantum MS as a
 1. Close the purge valve to begin equilibrating the column to the initial conditions.
 1. Close the Direct Control window by clicking the "X" in its top-right corner.
 <div style="page-break-after: always;"></div>
+
 12. Back in the Instrument Setup popup, click the icon labelled "Agilent1100 DAD" in the left-hand toolbar to access the DAD's setup window shown below.
       ![DAD Setup Window](DADsetup.png)
 1. Click "Agilent1100" in the top toolbar followed by "Direct Control..." to open the Direct Control window shown below.
