@@ -29,6 +29,7 @@ This SOP details the operation of the Agilent 1100 LC and Thermo Quantum MS as a
 1. In the main window of Xcalibur, click "Instrument Setup" shown below.  The Instrument Setup popup will default to the autosampler selected since it is the module that communicates to the mass spectrometer.
       ![Instrument Setup Icon](Instrumentsetup.png)
 <div style="page-break-after: always;"></div>
+
 4. In the Instrument Setup popup, click the "Agilent1100 Quat" icon in the left-hand toolbar to select the pump's setup window as shown below in yellow.
       ![Quat Setup Icon](quatsetupwindow.png)
 1. Click "Agilent1100" in the top toolbar followed by "Direct Control..." to open the Direct Control window shown below.
