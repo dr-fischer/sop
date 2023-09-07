@@ -29,10 +29,13 @@ This SOP details the operation of the Agilent 1100 LC and Thermo Quantum MS as a
 1. In the main window of Xcalibur, click "Instrument Setup" shown below.  The Instrument Setup popup will default to the autosampler selected since it is the module that communicates to the mass spectrometer.
       ![Instrument Setup Icon](Instrumentsetup.png)
 <div style="page-break-after: always;"></div>
+
 4. In the Instrument Setup popup, click the "Agilent1100 Quat" icon in the left-hand toolbar to select the pump's setup window as shown below in yellow.
       ![Quat Setup Icon](quatsetupwindow.png)
+   
 1. Click "Agilent1100" in the top toolbar followed by "Direct Control..." to open the Direct Control window shown below.
       ![Pump Direct Control Pump Window](Pumpdirectcontrol.png)
+   
 1. Change the "Flow rate" to 5.00 mL/min, and the composition to be an even split of the lines you are using.  For example, if using lines A & B, they would be set to 50:50.  If using all four lines, they would be 25% each.
 1. Click "Start Pump" to begin purging the mobile phase.  The pump may take a moment to start pumping.
 1. Allow the pump to purge for ~5 mins.
@@ -40,10 +43,13 @@ This SOP details the operation of the Agilent 1100 LC and Thermo Quantum MS as a
 1. Close the purge valve to begin equilibrating the column to the initial conditions.
 1. Close the Direct Control window by clicking the "X" in its top-right corner.
 <div style="page-break-after: always;"></div>
+
 12. Back in the Instrument Setup popup, click the icon labelled "Agilent1100 DAD" in the left-hand toolbar to access the DAD's setup window shown below.
       ![DAD Setup Window](DADsetup.png)
+    
 1. Click "Agilent1100" in the top toolbar followed by "Direct Control..." to open the Direct Control window shown below.
       ![DAD Direct Control Window](DADdirectcontrol.png)
+   
 1. Use this window to turn on the UV Lamp by selecting "Lamp On."  Wait until the "Lamp status" reads "On" before proceeding.
 1. Close the Direct Control window for the DAD.
 
