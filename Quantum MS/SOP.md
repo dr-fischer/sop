@@ -45,9 +45,12 @@ This SOP details the operation of the Agilent 1100 LC and Thermo Quantum MS as a
 
 12. Back in the Instrument Setup popup, click the icon labelled "Agilent1100 DAD" in the left-hand toolbar to access the DAD's setup window shown below.
       ![DAD Setup Window](DADsetup.png)
+    
 1. Click "Agilent1100" in the top toolbar followed by "Direct Control..." to open the Direct Control window shown below.
       ![DAD Direct Control Window](DADdirectcontrol.png)
+   
 1. Use this window to turn on the UV Lamp by selecting "Lamp On."  Wait until the "Lamp status" reads "On" before proceeding.
+
 1. Close the Direct Control window for the DAD.
 
 <div style="page-break-after: always;"></div>
