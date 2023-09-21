@@ -81,6 +81,7 @@ This procedure details the tuning/calibration and optimization of the mass spect
 1. When the procedure has finished, you will be given the option to either accept or undo the changes made during the procedure.  Click "Accept" to apply the changes.
 1. Resave the current calibration/tune file after each optimization.
 <div style="page-break-after: always;"></div>
+
 ## Custom (Advanced) Optimization
 1. First, change the tune mass to the parent mass of your compound.
   1. Click the "Instrument Method Development Workspace" icon.
