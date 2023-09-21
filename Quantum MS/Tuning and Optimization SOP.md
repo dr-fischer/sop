@@ -98,12 +98,19 @@ This procedure details the tuning/calibration and optimization of the mass spect
 
 ## Custom (Advanced) Optimization With LC Flow
 1. The above advanced optimization can/should be repeated with LC flow.
+2. 
 1. Change the mobile phase composition to representative composition within your method, but note **there should be at least 20 % water.**
+   
 1. Disconnect the waste line at the tee that splits the LC eluent to the waste and mass spectrometer, and replace it with a red PEEK line that will be connected to the syringe pump.
+   
 1. Infuse the sample at a rate of 20 - 25 µL.
+   
 1. Turn the pump on with the selected mobile phase composition at a flow rate of 500 µL/min.
+   
 1. Once the peak(s) of your sample are observed, repeat the optimization procedure from the previous section.
+   
 1. When the procedure has finished, you will be given the option to either accept or undo the changes made during the procedure. Click "Accept" to apply the changes.
+   
 1. Save the tune file as a new, uniquely named file.
 
 # Standby
