@@ -50,6 +50,7 @@ This procedure details the tuning/calibration and optimization of the mass spect
 1. When the procedure has finished, you will be given the option to either accept or undo the changes made during the procedure.  Click "Accept" to apply the changes.
 1. Save the tune and calibration by clicking the "Save Calib" button.  Overwrite the file that was saved in the Autotune and Calibration procedure earlier.
 <div style="page-break-after: always;"></div>
+
 # Tuning and Calibration Procedure for Negative Mode
 1. The procedure to Autotune and Calibration is the same for negative mode as above with a few exceptions:
   1. Change the polarity from positive mode to negative mode by clicking the "+" icon so that it changes to a "-".
@@ -84,17 +85,28 @@ This procedure details the tuning/calibration and optimization of the mass spect
 
 ## Custom (Advanced) Optimization
 1. First, change the tune mass to the parent mass of your compound.
+   
   1. Click the "Instrument Method Development Workspace" icon.
+     
   1. Ensure the Scan Type is set to "Full Scan", the Scan Mode is set to "Q1MS", and Scan Range is set to "Center Mass" for the mass of your compound.
-  1. Change the "Scan Width" to 10.  Click "Apply" to change the mass range.
+     
+1. Change the "Scan Width" to 10.  Click "Apply" to change the mass range.
+   
 1. Load the 500 µL syringe with the sample and begin the infusion at 15 µL/min.
+   
 1. Click the "Full Instrument Control Workspace" icon (highlighted in yellow below) and ensure the tune mass (highlighted in red below) is the mass you changed to Step 1.
+   
       ![Full Instrument Control Workspace with Tune Mass Highlighted](fullinstrumentcontrol.png)
+   
 1. Click the tab of the quad you want to optimize your compound for.  You have the options of Q1, Q3 or MS2.
       ![Full Instrument Control Sidebar](fullinstrumentcontrolbar.png)
+   
 1. From here you have the options to optimize the various parameters that you choose.
+   
 1. With your desired option selected, click the "Optimize" button to begin the process.
+   
 1. When the procedure has finished, you will be given the option to either accept or undo the changes made during the procedure.  Click "Accept" to apply the changes.
+   
 1. Save the tune file as a new, uniquely named file.
 
 ## Custom (Advanced) Optimization With LC Flow
