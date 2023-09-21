@@ -3,7 +3,7 @@
 >**For urgent problems please report to Matt Burleson, AP 346, mburleson@wcu.edu, x2239!***
 
 # Scope
-This procedure details the tuning/calibration and optimization of the mass spectrometer via direct infusion with a syringe pump.
+This procedure details the tuning/calibration and optimization of the mass spectrometer via direct infusion with a syringe pump with and without LC flow.
 
 # Definitions
 1. **Auxiliary gas** - The outer-coaxial gas (nitrogen) that assists the sheath (inner-coaxial) gas in dispersing and/or evaporating sample solution as the sample solution exits the APCI, ESI, or H-ESI nozzle.  The auxiliary gas also sweeps solvents out of the API source to help keep the interior of the ion source as dry as possible. The auxiliary gas is used especially at higher solvent flow rates.  In some cases, signal intensity can be increased by using Auxiliary gas, particularly for higher LC flow rates.
@@ -66,7 +66,7 @@ This procedure details the tuning/calibration and optimization of the mass spect
 
 1. The optimization procedure is useful for tuning the instrument for a user specific compound.  You can select to optimize the standard set of devices that are associated with the chosen optimization mode (MS Only, MS + MS/MS, or SRM), or you can select to optimize a custom set of devices (more time consuming and advanced).  The procedures below is for using the MS Only optimization.
 
-## Standard Optimization
+## Standard (Quick) Optimization
 1. First, change the tune mass to the parent mass of your compound.
   1. Click the "Instrument Method Development Workspace" icon.
   1. Ensure the Scan Type is set to "Full Scan", the Scan Mode is set to "Q1MS", and Scan Range is set to "Center Mass" for the mass of your compound.
@@ -91,9 +91,20 @@ This procedure details the tuning/calibration and optimization of the mass spect
       ![Full Instrument Control Workspace with Tune Mass Highlighted](fullinstrumentcontrol.png)
 1. Click the tab of the quad you want to optimize your compound for.  You have the options of Q1, Q3 or MS2.
       ![Full Instrument Control Sidebar](fullinstrumentcontrolbar.png)
-1. From here you have the options to optimize the spray voltage, sheath gas pressure, ion sweep gas pressure, aux gas pressure, capillary temperature, capillary offset and tube lens voltage.
+1. From here you have the options to optimize the various parameters that you choose.
 1. With your desired option selected, click the "Optimize" button to begin the process.
 1. When the procedure has finished, you will be given the option to either accept or undo the changes made during the procedure.  Click "Accept" to apply the changes.
+1. Save the tune file as a new, uniquely named file.
+
+## Custom (Advanced) Optimization With LC Flow
+1. The above advanced optimization can/should be repeated with LC flow.
+1. Change the mobile phase composition to representative composition within your method, but note **there should be at least 20 % water.**
+1. Disconnect the waste line at the tee that splits the LC eluent to the waste and mass spectrometer, and replace it with a red PEEK line that will be connected to the syringe pump.
+1. Infuse the sample at a rate of 20 - 25 µL.
+1. Turn the pump on with the selected mobile phase composition at a flow rate of 500 µL/min.
+1. Once the peak(s) of your sample are observed, repeat the optimization procedure from the previous section.
+1. When the procedure has finished, you will be given the option to either accept or undo the changes made during the procedure. Click "Accept" to apply the changes.
+1. Save the tune file as a new, uniquely named file.
 
 # Standby
 1. When your finished with the instrument, ensure the MSD is in standby mode with the argon gas turned off until ready for analysis by clicking the green arrow at the top left of the software.
