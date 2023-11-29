@@ -1,11 +1,11 @@
 ## Bruker 400 MHz NMR Spectrometer Operating Instructions
-MB | v20211129
+112923MB03
 
-### Single sample analysis
+### Single Sample Analysis
 ## Software Startup and Acquisition
 1. The username for the computer is nmrsu.  The password is "topspin."
 1. Sign in to the calendar if you have not already done so.
-1. Double-click the TopSpin 4.0.9. icon.  A window similar to command prompt will open before TopSpin opens.
+1. Double-click the TopSpin 4.3.0. icon.  A window similar to command prompt will open before TopSpin opens.
 1. Obtain a spinner and place your NMR sample tube inside.  Use the depth gauge (with no force) to set your tube depth to the appropriate level.
 1. Place your prepared sample in an autosampler location.  Take note of the number within the autosampler.  Location 24 is reserved for the autocalibration sample and should never be removed.
 1. Under the "Acquire" tab select "Create Dataset."  A new window will open.
@@ -18,14 +18,14 @@ MB | v20211129
 1. Once the sample is spinning, select "Shim" followed by "Autoshim sample using TopShim."
 1. Once the sample has been shimmed, select "Prosol" followed by "Update 'prosol' parameters."
 1. With the parameters updated, select "Gain" followed by "Receiver gain adjustment."
-1. After the gain has been adjusted, the sample can be analyzed by clicking "Run" followed by "Start Aquisition."
+1. After the gain has been adjusted, the sample can be analyzed by clicking "Run" followed by "Start Acquisition."
 
 
-### Automation use for multiple samples
+### Automation Use for Multiple Samples
 ## Software Startup and Acquisition Setup
 1. The username for the computer is nmrsu.  The password is "topspin."
 1. Sign in to the calendar if you have not already done so.
-1. Double-click the TopSpin 4.0.9. icon.  A window similar to command prompt will open before TopSpin opens.  TopSpin will primarily be used once the acquisition is complete.
+1. Double-click the TopSpin 4.3.0. icon.  A window similar to command prompt will open before TopSpin opens.  TopSpin will primarily be used once the acquisition is complete.
 1. Click in the command line within TopSpin and type "iconnmr" followed by pressing enter.
 1. Click the "Automation" icon.
 1. Select the nmrsu username and click "OK."  The password for the username is "topspin."
@@ -42,7 +42,7 @@ MB | v20211129
 1. Your spectrum can be given a title by  clicking in the "Title/Orig"* window.
 1. You can add multiple experiments to the same holder as necessary.  For example, a carbon experiment could be added for the same sample by clicking "Add" again.  You will then observe a new row has been added and the value under the "No." column has increased by one.  Repeat the above instructions for setting up the subsequent experiment.
 1. Click "Submit" to add your sample to the queue.  Note that any sample to be analyzed must be submitted.
-1. Click the "Start" icon located near the top toolbar to load the submission subwindow, and click "Start" again to begin the acquisition.
+1. Click the "Power" icon located at the top-left near the top toolbar to load the submission subwindow, and click "Start" again to begin the acquisition.
 <div style="page-break-after: always;"></div>
 ### Processing Spectra
 1. Find your spectrum within TopSpin.
@@ -59,11 +59,19 @@ MB | v20211129
 1. Left-click and hold to drag the mouse from left to right over the range of peaks you need to pick.
 1. Under the peak picking toolbar, select "Define peak manually."  Left-click in the center of the peak you need to pick and the peak's ppm will appear in green.
 1. Zoom out and repeat this procedure as necessary for all of the necessary peaks.
+
 ## Adjusting Peak ppm
 1. In the event that a peak's ppm needs to be edited such as setting TMS to zero, for example, the Axis Calibration will be used.
 1. Under the "Process" tab, select the "Calib. Axis" dropdown menu.
 1. Click "Manual Axis Calibration." A red cursor should now be displayed on the screen.  Left-click this cursor in the center of the peaking needing to be adjusted.  A new window will open asking for the cursor frequency in ppm.  Set this value accordingly and press "OK."  The spectrum will then be adjusted.
 
+## Obtaining Coupling Constants
+1. First, perform peak picking as detailed above.  For simplicity, only perform peak picking on the peaks the measurement is desired.
+1. Under the "Analyze" tab, select the "Multiplets" dropdown menu followed by "Multiplet Analysis."
+1. Select "Automatically Define Multiplet" in the multiplet toolbar.
+1. You can now click on each peak to obtain the coupling constant value, or you can export a report as detailed in the next steps.
+1. Click the "Show Multiplet Report" button to launch the "Assign Connections/Report" dialog.
+1. Click the "Exp" button to have a report exported to the same directory that the spectrum was saved in.
 
 ### Printing Spectra
 1. To print your spectra, select the "Plot" tab.  Under layout, use "Proton Default" if it is not already selected.
@@ -76,6 +84,8 @@ MB | v20211129
 1. A new window will appear asking for the holder position.  Use the value of 24 for the autocalibrate sample.
 
  > Please do not close IconNMR so that the instrument performs the autocalibration at night.
+
+<div style="page-break-after: always;"></div>
 
 ### Retrieving Spectra
  1. You can retrieve a previously analyzed spectrum within TopSpin by pressing **ctrl+f** to open the "Find data" window.
