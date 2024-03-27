@@ -1,36 +1,35 @@
-# Agilent 7890A GC with 5975C MSD
+# Agilent 7890A GC with 5975C MSD and G1888 Headspace Sampler
 
-MB 04062022
+032724MB02
 
-> *If you encounter problems while running the instrument, please use submit an [**Instrument Incident Report**](https://docs.google.com/forms/d/e/1FAIpQLSc96MiK73kKP06KEZpR0-O7zETCLvWgQtLp_bKEynosUKqpNg/viewform) with a description of your problem.  **For urgent problems please report to Matt Burleson, AP 346, mburleson@wcu.edu, x2239!***
-# Start the Carrier Gas and Instrument
-1. On the hydrogen generator located below the instrument, press "Start."  The generator will begin to initialize.
-1. Once the generator has finished initializing, press "Open."  Allow the generator enough time to reach its pressure setpoint.
-1. The instrument can now be turned on.
+>**For urgent problems please report to Matt Burleson, AP 346, mburleson@wcu.edu, x2239!**
+
+# Book the Instrument (if not already)
+1. Book your time on the instrument using the links on the website.
+
 # Login
-1. Login to Windows using the username **administrator** and the password **3000hanover**.
-1. Open the ChemStation Software by selecting **GCMS Software & Usage Log** shortcut on the desktop.
-1. When the web browser opens, use the online form to reserve the instrument and log your time (ensure no else has the instrument reserved on the calendar).
-1. Login to ChemStation using the username **operator** and password **operator**.
+1. Open the MassHunter Software by selecting the icon labelled **GCMS** shortcut on the desktop.
 
-# Load a Method
+# GC-MS/FID Operation (No Headspace)
+## Load a Method
 
 > *The "Method" file includes the parameters that tell the GC-MS how to operate.*
 
 1. Go to **Method > Load Method**, choose your method, and click **OK**.
-	1. All methods are stored on `C:/msdchem/methods/...`.
-	1. If you are in a class, use the method your were instructed to use in class. For CHEM 472/572 use `C:/msdchem/methods/2018 CHEM472-572/chem472-18_method.m`.
+	1. All methods are stored on `D:/MassHunter/GCMS/1/methods/...`.
+	1. If you are in a class, use the method your were instructed to use in class.
 
-# Prepare a Sequence
+## Prepare a Sequence
 
 > *The "Sequence" file includes the vial locations, file names, and descriptions of the samples.*
 
 ## For a single sample
 1. Click the **Green Arrow** ar the top of the screen.
-1. Select the path to the data *folder* you wish to use. (All data are stored on the Data (`D:/`) drive.)
 1. Enter the operator name.
-1. Enter a description of your sample.
-1. Enter a unique filename for your sample.
+1. Select the path to the data *folder* you wish to use. (All data are stored on the Data (`D:/`) drive.)
+1. Enter a unique data file name for your sample.
+1. Enter a sample name (date/your initials).
+1. Enter a description of your sample in `Misc Info`.
 1. Enter the autosampler position for your sample under **Vial**.
 1. Ensure there is enough solvent is the wash vials you are using (usually Vial A) and fill them if not.
 1. Click **OK and Run Method**.
@@ -39,29 +38,46 @@ MB 04062022
 
 1. Select **Sequence > Edit Sequence**.
 1. Select the path to your data *folder* at the top left of the sequence window. (All data are stored on the Data (`D:/`) drive.)
-1. Enter the the path to the *folder* that contains your method in the top middle of the window. (All methods are stored on the `C:/` drive, see Section 2.)
-1. Fill out the sequence table; an example is given in Figure 1.
+1. Enter the the path to the *folder* that contains your method in the top middle of the window. (All methods are stored on the `C:/` drive, see Loading A Method above.)
+1. Fill out the sequence table; an example is given below.
+![Example Sequence Table](./agilentGCMS_sequenceTable.png)
 1. Click **OK** to exit the sequence table.
 1. Click **Sequence > Save Sequence** to save your changes.
 1. Ensure there is enough solvent is the wash vials you are using (usually Vial A) and fill them if not.
 1. Select **Sequence > Run Sequence**, and then click **Run Sequence** in the popup.
 
-![Example Sequence Table](./agilentGCMS_sequenceTable.png)
+# GC-MS/FID Operation with Headspace
 
-# Analyze
+## Opening Gas Valves
+>The headspace requires He carrier gas, but this is not good for the mass spec as it has been converted to use H<sub>2</sub> carrier gas.  These steps **MUST** be followed in order.
 
-1. Open the data analysis software by clicking the "GCMS Data" shortcut on the desktop and login using the username **operator** and password **operator**.
+1. Begin by closing the **gate valve (round handle)** behind the instrument.  This valve delivers H<sub>2</sub> carrier gas to both inlets when open, but when closed prevents the flow of He into the front inlet connected to the mass spec.
+1. Open the **He cylinder shutoff valve** and ensure there is ~80 psi going to the instrument.
+1. Open the **quick connect valve (blue and white plastic)** to begin flowing He through the system.
+1. There are lastly **two ball valves (black handles)** to be opened - one behind the GC and one behind the headspace sampler.
+1. After the gas is flowing and all the valves (four) are open, load the desired method and create a sequence by following the steps outlined earlier.
+
+## Closing Gas valves
+1. When the headspace analysis is finished, **close the valves opened in the previous step in the following order: He cylinder shutoff valve, quick connect valve and then the two ball valves.**
+1. **Open the gate valve <u>last</u>** to begin flowing H<sub>2</sub> through the back inlet.
+
+# Analyzing Data
+
+1. Open the data analysis software by clicking the "GCMS Data" shortcut on the desktop.
 1. Select the file you wish to examine in the browser on the left of the screen.
 
 
 > *For real-time analysis, click the **Snapshot (camera icon)** in the top shortcut bar to import the current data*
 
 - Tips:       
-    - *To zoom*: Left click and drag; double click to zoom to extents.
+    - *To zoom*: Left click and drag; double click to undo the zoom.
     - *To view a mass spectrum*: Right click, choose **Select** and the mass spectrum is displayed below.
     - *To find the retention times*: Right click on TIC and choose **Integrate**.
     - *To change the Y-axis from Abundance to % Relative Abundance*: Follow the step above to view a mass spectrum.  Locate the command line towards the top window and type "norm 100" followed by enter.  The spectrum will disappear.  Back in the command line, type "Draw 1,x" followed by enter to display the new spectrum.
+	- *To integrate FID Data*: Follow the step above to view a chromatogram.  **Right-click** in the chromatogram and select **Enable Standard Data Analysis mouse actions.**  Zoom as necessary to see the start/end of the band, **right-click and hold** to drag the integration line from the start baseline and ending baseline.  Alternatively, the auto integrate function can be used by clicking **Chromatogram** in the top toolbar followed by **Autointegrate.**  Integration done automatically should always be inspected for quality (no baseline inflation, etc.)
+	- *To view FID integration results*: Click **Chromatogram** in the top toolbar followed by **Integration Results.**
 
+<div style="page-break-after: always;"></div>
 # Save/Export
 
 1. You may print your spectra to the printer to paste into your lab notebook.
@@ -69,7 +85,7 @@ MB 04062022
 
 # Shutdown
 
-1. Return the instrument to its resting state by selecting **Method > Load Method** and choose  `_DEFAULT.M` (in the GC software).
+1. Return the instrument to its standby state by selecting **Method > Load Method** and choose  `_Standby.M` (in the GC software).
 1. Remove your sample vials from the autosampler and solvent from the wash vials and dispose of as hazardous waste.  Ensure your work area is clean.
 1. Close the software and log out of the computer.
 
