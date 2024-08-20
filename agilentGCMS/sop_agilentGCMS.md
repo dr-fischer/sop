@@ -49,17 +49,15 @@
 # GC-MS/FID Operation with Headspace
 
 ## Opening Gas Valves
->The headspace requires He carrier gas, but this is not good for the mass spec as it has been converted to use H<sub>2</sub> carrier gas.  These steps **MUST** be followed in order.
+>The headspace also utilizes hydrogen carrier gas.
 
-1. Begin by closing the **gate valve (round handle)** behind the instrument.  This valve delivers H<sub>2</sub> carrier gas to both inlets when open, but when closed prevents the flow of He into the front inlet connected to the mass spec.
-1. Open the **He cylinder shutoff valve** and ensure there is ~80 psi going to the instrument.
-1. Open the **quick connect valve (blue and white plastic)** to begin flowing He through the system.
-1. There are lastly **two ball valves (black handles)** to be opened - one behind the GC and one behind the headspace sampler.
-1. After the gas is flowing and all the valves (four) are open, load the desired method and create a sequence by following the steps outlined earlier.
+1. Open the **H<sub>2</sub> cylinder shutoff valve** in the flammable gas cabinet and ensure there is ~60 psi going to the instrument.
+1. Open the **N<sub>2</sub> cylinder shutoff valve** to begin flowing N<sub>2</sub> to the FID (makeup) and headspace vial pressurization.
+1. After the gases are flowing, load the desired method and create a sequence by following the steps outlined earlier.
 
 ## Closing Gas valves
-1. When the headspace analysis is finished, **close the valves opened in the previous step in the following order: He cylinder shutoff valve, quick connect valve and then the two ball valves.**
-1. **Open the gate valve <u>last</u>** to begin flowing H<sub>2</sub> through the back inlet.
+1. When the headspace analysis is finished, **close the cylinder shutoff valves opened in the previous step.**
+1. Load the **Default method.**
 
 # Analyzing Data
 
