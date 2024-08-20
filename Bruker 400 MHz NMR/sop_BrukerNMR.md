@@ -1,15 +1,16 @@
 ## Bruker 400 MHz NMR Spectrometer Operating Instructions
-112923MB03
+060724MB05
 
 ### Single Sample Analysis
 ## Software Startup and Acquisition
 1. The username for the computer is nmrsu.  The password is "topspin."
 1. Sign in to the calendar if you have not already done so.
-1. Double-click the TopSpin 4.3.0. icon.  A window similar to command prompt will open before TopSpin opens.
+1. Double-click the **TopSpin 4.4.0.** icon.  A window similar to command prompt will open before TopSpin opens.
 1. Obtain a spinner and place your NMR sample tube inside.  Use the depth gauge (with no force) to set your tube depth to the appropriate level.
 1. Place your prepared sample in an autosampler location.  Take note of the number within the autosampler.  Location 24 is reserved for the autocalibration sample and should never be removed.
 1. Under the "Acquire" tab select "Create Dataset."  A new window will open.
 1. Within this window, give your experiment a name and number in "NAME" and "EXPNO", respectively.
+1. **Set the directory to be on the D drive**.  Do not use spaces when making folders.
 1. Select your nuclei under from "Read parameterset" and then select your solvent beside "Set solvent".  Click "OK".
 1. Insert your sample by clicking "Sample" followed by "Insert sample with sample changer."  A new window will appear for you to enter the location of your sample.  Once you click "OK", the sampler will insert your sample.
 1. With your sample inserted, click "Lock."  A new window will appear where you will select your solvent and click "OK."  The instrument will then initiate the locking process.
@@ -25,7 +26,7 @@
 ## Software Startup and Acquisition Setup
 1. The username for the computer is nmrsu.  The password is "topspin."
 1. Sign in to the calendar if you have not already done so.
-1. Double-click the TopSpin 4.3.0. icon.  A window similar to command prompt will open before TopSpin opens.  TopSpin will primarily be used once the acquisition is complete.
+1. Double-click the TopSpin 4.4.0. icon.  A window similar to command prompt will open before TopSpin opens.  TopSpin will primarily be used once the acquisition is complete.
 1. Click in the command line within TopSpin and type "iconnmr" followed by pressing enter.
 1. Click the "Automation" icon.
 1. Select the nmrsu username and click "OK."  The password for the username is "topspin."
@@ -35,7 +36,7 @@
 1. Obtain a spinner and place your NMR sample tube inside.  Use the depth gauge (with no force) to set your tube depth to the appropriate level.
 1. Place your prepared sample in an autosampler location.  Take note of the number within the autosampler.  Location 24 is reserved for the autocalibration sample and should never be removed.
 1. Within the Experiment Table window, click the number under the "Holder" column followed by "Add."
-1. Take note of the location listed under "Disk" as this is where your spectrum will be saved.  Leave the value under the "NO." column as is.
+1. Take note of the location listed under "Disk" as this is where your spectrum will be saved.  **Set the directory to be on the D drive**.  Do not use spaces when making folders.  Leave the value under the "NO." column as is.
 1. Select your solvent from the drop-down menu under the "Solvent" column.
 1. Select your experiment from the drop-down menu under the "Experiment" column.
 1. Parameters of the selected experiment, such as the number of scans, can be edited by clicking the equal sign under the "Par" column.
@@ -88,6 +89,13 @@
 <div style="page-break-after: always;"></div>
 
 ### Retrieving Spectra
+1. To retrieve a previously acquired spectrum, click the **three horizontal lines** in the top-left window of TopSpin followed by **Open**.
+1. The "Open - reb" dialog opens, so click **OK.**
+1. Navigate to the data directory of the analysis you wish to open.
+1. Click the folders within this directory until you locate the folder labelled as "pdata".
+Click the "pdata" folder followed by **Display** in the bottom of the window.  Your spectrum should now be displayed.
+
+Alternatively, you can also do the following:
  1. You can retrieve a previously analyzed spectrum within TopSpin by pressing **ctrl+f** to open the "Find data" window.
  1. Enter the name of your data/spectrum you'd like to retrieve and click "OK" to start the search.
  1. After locating the spectrum within the search results window, click "Display" to display the spectrum in TopSpin.
