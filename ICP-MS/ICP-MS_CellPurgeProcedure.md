@@ -18,6 +18,12 @@ Instrument birth certificate as needed.
 1. UHP (or better) O<sub>2</sub> gas.
 1. UPC (or better) He gas.
 1. Swagelok VCR Connections (if changing tanks)
+1. NexION Setup Solution.
+1. KED Setup Solution.
+1. Detection Limit STD/DRC Blank.
+1. AFT Multielement Solution.
+1. O<sub>2</sub> Performance Check Solution (prepared in house; 2 ppb As, Ce & Th).
+
 
 # DRC and KED Gas Cylinder Changing
 The required input pressure for the DRC and KED are 15 psi and 25 psi, respectively, as indicated by the pressure gauge on the regulator.  The gas cylinder needs to be changed whenever these pressure requirements are not met.  VCR gaskets are **<u>single use only</u>.**  Parts labeled as **"DNR"** should not be removed on the regulator.
@@ -103,7 +109,7 @@ Optimize the torch position, nebulizer gas and QID in standard mode first, then 
 1. Click the **Syngistix Ball** followed by **Open** and select the Smarttune Wizard File labelled as **"KED."**  
 The optimization list should resemble that shown below.
       ![KED Opimization List](KEDoptimization.png)
-1. Begin aspirating the NexION Setup Solution.
+1. Begin aspirating the **NexION Setup Solution**.
 1. Click the **QID** optimization and ensure that **KED QID** is checked as shown below.
       ![KED Optimization List](KEDqid.png)
 1. Right-click on the **QID** in the optimization list and select **Quick Optimize.**  When the procedure is complete, the optimization curves appear in the Optimization Details of the SmartTune Results screen and in the Realtime Screen.
@@ -120,7 +126,7 @@ The optimization list should resemble that shown below.
 1. In the **Parameter Range** column, use a Start Value of 3.0, an end value of 6.0 and a step value of 0.1.
 1. In the **Cell Parameters** table, select **Co** as the analyte.
 1. Select **Formula** under **Optimization Criteria.**
-1. Select **ClO/Co <0.005.**  
+1. Select **ClO/Co < 0.005.**
 1. After ensuring the KED Setup Solution has reached the spray chamber, click the **Optimize** button.
 1.  Setting the real time display in a logarithmic scale will shows the separation in signal.
 1. After the readings are completed, return the autosampler to the rinse location.  The Cell Parameters table will now have a value under the helium column.
@@ -203,6 +209,7 @@ The optimization list should resemble that shown below.
 ### Optimizing for NH<sub>3</sub> DRC Mode
 >**The use of the cell requires an overnight purge performed by Matt Burleson!**
 
+The cell is optimized by testing for <sup>56</sup>Fe.
 #### NH<sub>3</sub> DRC Cell Gas Optimization
 1. Aspirate the **Detection Limit STD/DRC Mode Blank** solution provided
 1. In the Method screen, open the method **Cell Gas Optimization.mth.**
@@ -218,7 +225,7 @@ The optimization list should resemble that shown below.
 
 
 9. Return to the **Advanced Optimize** tab.  Start the optimization routine by clicking on the **Optimize** icon.
-1. When the routine is done, aspirate the **NexION Setup** solution.
+1. When the routine is done, aspirate the **NexION Setup solution**.
 1. Under the **Manual** tab of the **Sample** Screen, enter an appropriate name for this solution: For Example: **Matrix Spike Cell Gas A.**
 >**Note:** **DO NOT** select any of the Analyze buttons on this screen.
 
@@ -241,7 +248,7 @@ The optimization list should resemble that shown below.
 >Note: You may have to change the plot to log scale to see the lowest point.
 
 #### Optimizing CPV, CRO, and QRO in NH<sub>3</sub> DRC Mode
-In DRC mode, the cell is filled with a reactive gas so the necessary voltages will change. Only one analyte is necessary for optimization.  These parameters change very little from analyte to analyte. These values should not change.
+In DRC mode, the cell is filled with a reactive gas so the necessary voltages will change. Only one analyte is necessary for optimization.  These parameters change very little from analyte to analyte.
 
 #### Cell Path Voltage Method DRC Update
 1. Open the **Cell Path Voltage - Ammonia.mth** method in the Method screen.
@@ -285,6 +292,7 @@ In DRC mode, the cell is filled with a reactive gas so the necessary voltages wi
 ### Optimizing for O<sub>2</sub> DRC Mode
 >**The use of the cell requires an overnight purge performed by Matt Burleson!**
 
+The cell is optimized for AsO.
 #### O<sub>2</sub> DRC Cell Gas Optimization
 1. Aspirate the **Detection Limit STD/DRC Mode Blank** solution provided
 1. In the Method screen, open the method **Cell Gas Optimization O2.mth.**
@@ -300,7 +308,7 @@ In DRC mode, the cell is filled with a reactive gas so the necessary voltages wi
 
 
 9. Return to the **Advanced Optimize** tab.  Start the optimization routine by clicking **Optimize.**
-1. When the routine is done, aspirate the **AFT Multi-Element Solution** solution.
+1. When the routine is done, aspirate the **O<sub>2</sub> Performance Check Solution.**
 1. Under the **Manual** tab of the **Sample** Screen, enter an appropriate name for this solution: For Example: **Matrix Spike.**
 >**Note:** **DO NOT** select any of the Analyze buttons on this screen.
 
@@ -335,7 +343,7 @@ In DRC mode, the cell is filled with a reactive gas so the necessary voltages wi
 1. Save this method file.
 
 #### DRC Mode Cell Entrance/Exit Voltage Optimization
-1. Aspirate the **AFT Multi-Element Solution.**
+1. Aspirate the **O<sub>2</sub> Performance Check Solution.**
 1. Navigate to the **SmartTune** screen.
 1. Open the **Oxygen DRC.swz** SmartTune File.
 1. On the SmartTune screen, right-click on **[Oxygen DRC] Cell Entrance/Exit Voltage** and select **Quick Optimize.**  This value calculated is -2 volts from the largest drop.
@@ -343,9 +351,10 @@ In DRC mode, the cell is filled with a reactive gas so the necessary voltages wi
 1. Save the Conditions file as **default.dac.**
 
 #### DRC Mode CRO (Cell Rod Offset) Optimization
-1. Aspirate the **AFT Multi-Element Solution.**
+1. Aspirate the **O<sub>2</sub> Performance Check Solution.**
 1. With the **Oxygen DRC.swz** SmartTune File still open, right-click on **[Oxygen DRC] CRO** and select **Quick Optimize.**
 1. This value will be entered into the **Manual Adjust** portion of the **Conditions** screen.
+<div style="page-break-after: always;"></div>
 
 #### DRC Mode QRO (Quadrupole Rod Offset)
 1. The value for the QRO is automatically set by the **DRC Mode CRO.**
@@ -365,7 +374,7 @@ In DRC mode, the cell is filled with a reactive gas so the necessary voltages wi
 1. Save the conditions file as **default.dac.**
 
 #### DRC Installation Performance Verification
-1. Aspirate the **AFT Multi-Element Solution.**
+1. Aspirate the **O<sub>2</sub> Performance Check Solution.**
 1. Go back to the **SmartTune** window.
 1. Right-click on **Lab Performance Check** and select **Quick Optimize.**
 1. When the procedure is complete, verify the values meets specifications.
