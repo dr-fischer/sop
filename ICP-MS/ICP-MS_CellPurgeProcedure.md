@@ -75,8 +75,10 @@ The required input pressure for the DRC and KED are 15 psi and 25 psi, respectiv
 1. Click the **Analyze Batch** button.
 1. When the **Run List** window opens, ensure that **Autostop** is checked and that **Stop Criteria is set to Batch Completed.**  This will tell the instrument to kill the plasma when the conditioning has been completed as the conditioning can take ≥ 12 hours.
 <div style="page-break-after: always;"></div>
+
 ### Optimizing for KED Mode
 Optimize the torch position, nebulizer gas and QID in standard mode first, then perform a standard performance check.  Save the **Mass Calibration** and **Conditions** as **default.**
+
 #### KED Mode QID
 1. Select the **Conditions** page.
 1. Enter a value of 475 for KED **Axial Field Voltage (AFT).**  This is a typical value.
@@ -93,6 +95,7 @@ The optimization list should resemble that shown below.
 1. Right-click on the **QID** in the optimization list and select **Quick Optimize.**  When the procedure is complete, the optimization curves appear in the Optimization Details of the SmartTune Results screen and in the Realtime Screen.
 1. To assess the quality of the optimization curves, look for the curves increasing, attain a max point, and then decrease (appearing like a mountain).  A correlation of 0.99 is best and the Deflector Voltage vs. Mass should have a sigmoidal(ish) curve.
 1. Save the conditions file by selecting the **Conditions** tab and saving the file as **Default.dac.**
+
 #### KED Cell Gas optimization
 1. The cell gas is optimized (in this procedure) for two different flows, a high and low flow.
 1. Aspirate the **KED Setup Solution.**
@@ -109,11 +112,13 @@ The optimization list should resemble that shown below.
 1. After the readings are completed, return the autosampler to the rinse location.  The Cell Parameters table will now have a value under the helium column.
 1. Within the Advanced Optimize window, click the **Cell Parameters** tab to record the high and low flow values.
       ![KED High and Low Flows](highandlowflowKED.png)
+      
 #### KED Methods Update
 1. There are three methods that will be updated with the cell gas flows obtained above.  They include **Optimize - Helium,** **Detection Limits KED,** and  **KED Performance Check.**
 1. In the Method screen, open the **Optimize - Helium.mth** method.  Enter the high flow value of the He Cell gasses obtained in the KED Cell Gas Optimization procedure for all the analytes.  Save the method file.
 1. In the Method screen, open the **Detection Limits KED** method.  Enter the value of the He Cell gasses obtained in the KED Cell Gas Optimization procedure for all the analytes. High flow for V. Low flow for As and Se.  Save this method file.
 1. In the Method screen, open the **KED Performance Check** method.  Enter the value of the He Cell gasses obtained in the KED Cell Gas Optimization procedure for all the analytes. High flow for ClO-hi, Co-hi, CeO-hi, Ce-hi, Ar2-hi, and Kr-hi.  Low flow for ClO-lo, Co-lo.  Save this method file.
+      
 #### KED Cell Entrance Voltage
 1. Aspirate the **KED Setup Solution.**
 1. Navigate back to the Smarttune window with the "KED" optimization file still loaded.
@@ -121,6 +126,7 @@ The optimization list should resemble that shown below.
 1. Right-click on **KED Mode Cell Entrance Voltage** and select **Quick Optimize.**
 1. The correct reading will be entered into Manual Adjust tab of the Conditions screen.
 1. Save the conditions file by selecting the Conditions screen and saving the file as default.dac.
+      
 #### KED Cell Exit voltage
 1. Aspirate the **KED Setup Solution.**
 1. Navigate back to the Smarttune window with the "KED" optimization file still loaded.
@@ -129,10 +135,12 @@ The optimization list should resemble that shown below.
 1. The correct reading will be entered into Manual Adjust tab of the Conditions screen.
 1. Save the conditions file by selecting the Conditions screen and saving the file as default.dac.
 <div style="page-break-after: always;"></div>
+      
 #### KED Quadrupole Rod Offset (QRO)
 1. In the **Manual Adjustment** section of the **Conditions** tab, select **KED Mode QRO**.
 1. Enter a value of **-12.**
 1. Save the updated Conditions as **default.dac.**
+      
 #### KED Cell Rod Offset (CRO)
 1. Aspirate the **KED Setup Solution.**
 1. Navigate back to the Smarttune window with the "KED" optimization file still loaded.
@@ -141,6 +149,7 @@ The optimization list should resemble that shown below.
 1. The correct reading will be entered into Manual Adjust tab of the Conditions screen.
 1. Save the conditions file by selecting the Conditions screen and saving the file as **default.dac.**
 >This value is typically -15V. This is equal to 3 volts difference than the QRO.
+      
 #### KED Mode QID
 >Even though the QID was optimized earlier, it is recommended to optimized again.
 1. Aspirate the **NexION Setup Solution.**
@@ -151,6 +160,7 @@ The optimization list should resemble that shown below.
 1. If the curves are not satisfactory: Verify that the solution is correct and is being properly introduced into the system and repeat the optimization.
 1. The KED Mode QID™ curve is stored in the Conditions file.
 1. Save the conditions file by selecting the Conditions screen and saving the file as default.dac.
+      
 #### KED Axial Field Voltage Optimization
 1. Aspirate the **KED Setup solution.**
 2. In the Method screen, open the method **Optimize - Helium.mth.**
@@ -163,6 +173,7 @@ The optimization list should resemble that shown below.
 >This value is typically set to 475 volts.
 9. Save the conditions file by selecting the **Conditions** tab and saving the file as **default.dac.**
 <div style="page-break-after: always;"></div>
+      
 #### KED Performance Check
 1. Aspirate the **KED Setup solution.**
 1. In the SmartTune screen with the **KED** optimization file loaded, select **KED Performance Check.**
@@ -171,6 +182,7 @@ The optimization list should resemble that shown below.
 1. Save the conditions file by selecting the **Conditions** tab and saving the file as **default.dac.**
 1. Proceed to the Method Creation and Analysis section.
 <div style="page-break-after: always;"></div>
+      
 ### Optimizing for NH<sub>3</sub> DRC Mode
 >**The use of the cell requires an overnight purge performed by Matt Burleson!**
 
@@ -193,6 +205,7 @@ The cell is optimized by testing for <sup>56</sup>Fe.
 >**Note:** **DO NOT** select any of the Analyze buttons on this screen.
 14. Return to the **Advanced Optimize** tab. After making sure that the solution has reached the nebulizer, start the optimization routine by clicking on the **Optimize** icon.
 15. After the readings are completed, place the capillary in the **Rinse** solution.
+
 #### Analyzing the Data
 1. Activate the **Charting** screen and select the **Function** button.
 1. Click on the **Composite Samples...** button. The Composite Signal options dialog box will appear.
@@ -207,10 +220,12 @@ The cell is optimized by testing for <sup>56</sup>Fe.
 <div style="page-break-after: always;"></div>
 #### Optimizing CPV, CRO, and QRO in NH<sub>3</sub> DRC Mode
 In DRC mode, the cell is filled with a reactive gas so the necessary voltages will change. Only one analyte is necessary for optimization.  These parameters change very little from analyte to analyte.
+
 #### Cell Path Voltage Method DRC Update
 1. Open the **Cell Path Voltage - Ammonia.mth** method in the Method screen.
 1. Enter the value of the NH<sub>3</sub> Cell gas obtained in the Cell Gas Optimization procedure for all the analytes.
 1. Save this method file.
+
 #### DRC Mode Cell Entrance/Exit Voltage Optimization
 1. Aspirate the **NexION Setup Solution.**
 1. Navigate to the **SmartTune** screen.
@@ -220,16 +235,19 @@ In DRC mode, the cell is filled with a reactive gas so the necessary voltages wi
 >Note: the maximum value may not always be the best setting.  Check the value from the installation datasheet (on top of instrument).  If the value is **<i>more negative</i>** than the value determined, enter the value from the datasheet.
 6. Save the Conditions file as **default.dac.**
 #### DRC Mode CRO (Cell Rod Offset) Optimization
+
 1. Aspirate the **NexION Setup Solution.**
 1. With the **Ammonia DRC.swz** SmartTune File still open, right-click on **[Ammonia DRC] CRO** and select **Quick Optimize.**
 1. This value will be entered into the **Manual Adjust** portion of the **Conditions** screen.
 #### DRC Mode QRO (Quadrupole Rod Offset)
+
 1. The value for the QRO is automatically set by the **DRC Mode CRO.**
 1. The value is set to -7 V lower than the determined value as shown below.  This relationship maintains the abundance sensitivity.
 <center>a. <i> QRO </i> = <i>CRO</i> - 7.0.</center>
 1. Save the conditions file as **default.dac.**
 #### NH<sub>3</sub> DRC AFT (Axial Field Voltage)
 1. The typical value for Ammonia DRC is 200.
+
 #### NH<sub>3</sub> DRC Installation Performance Verification
 1. Open the **DRC Performance Check** method.
 1. Change the flow under the Ammonia column to be that which was found earlier to be optimum.  Save the method.
@@ -237,9 +255,11 @@ In DRC mode, the cell is filled with a reactive gas so the necessary voltages wi
 1. Right-click on **[Ammonia DRC] Performance Check** and select **Quick Optimize.**
 1. When the procedure is complete, verify the value meets specifications.
 <div style="page-break-after: always;"></div>
+
 ### Optimizing for O<sub>2</sub> DRC Mode
 >**The use of the cell requires an overnight purge performed by Matt Burleson!**
 The cell is optimized for AsO.
+
 #### O<sub>2</sub> DRC Cell Gas Optimization
 1. Aspirate the **Detection Limit STD/DRC Mode Blank** solution provided
 1. In the Method screen, open the method **Cell Gas Optimization O2.mth.**
@@ -258,6 +278,7 @@ The cell is optimized for AsO.
 >**Note:** **DO NOT** select any of the Analyze buttons on this screen.
 12. Return to the **Advanced Optimize** tab. After making sure that the solution has reached the nebulizer, start the optimization routine by clicking **Optimize.**
 1. After the readings are completed, place the capillary in the **Rinse** solution.
+
 #### Analyzing the Data
 1. Activate the **Charting** screen and select the **Function** button.
 1. Click on the **Composite Samples...** button. The Composite Signal options dialog box will appear.
@@ -268,6 +289,7 @@ The cell is optimized for AsO.
 1. Browse for the Standard by clicking the magnifying glass for **Sample 2** and select the file created for Matrix Spike solution (previously named **Matrix Spike** above).
 1. Click **Calculate** to interpret the data.
 1. Determine the flow rate for the best LOD. The lowest point on the LOD plot is the best LOD and is typically 0.3 -1.5 mL/min.
+
 #### Optimizing CPV, CRO, and QRO in DRC Mode
 In DRC mode, the cell is filled with a reactive gas so the necessary voltages will change. Only one analyte is necessary for optimization.  These parameters change very little from analyte to analyte. These values should not change.
 <div style="page-break-after: always;"></div>
@@ -276,10 +298,12 @@ In DRC mode, the cell is filled with a reactive gas so the necessary voltages wi
 1. Open the **Cell Path Voltage - Oxygen.mth** method in the Method screen.
 1. Enter the value of the O<sub>2</sub> Cell gas obtained in the Cell Gas Optimization procedure for all the analytes.
 1. Save this method file.
+   
 #### Oxygen DRC Performance Check Method DRC Update
 1. Open the **Oxygen DRC Performance Check.mth** method in the Method screen.
 1. Enter the value of the O<sub>2</sub> Cell gas obtained in the Cell Gas Optimization procedure for all the analytes.
 1. Save this method file.
+
 #### DRC Mode Cell Entrance/Exit Voltage Optimization
 1. Aspirate the **O<sub>2</sub> Performance Check Solution.**
 1. Navigate to the **SmartTune** screen.
@@ -287,15 +311,18 @@ In DRC mode, the cell is filled with a reactive gas so the necessary voltages wi
 1. On the SmartTune screen, right-click on **[Oxygen DRC] Cell Entrance/Exit Voltage** and select **Quick Optimize.**  This value calculated is -2 volts from the largest drop.
 1. This value will be entered into the **Manual Adjust** portion of the **Conditions** screen.
 1. Save the Conditions file as **default.dac.**
+
 #### DRC Mode CRO (Cell Rod Offset) Optimization
 1. Aspirate the **O<sub>2</sub> Performance Check Solution.**
 1. With the **Oxygen DRC.swz** SmartTune File still open, right-click on **[Oxygen DRC] CRO** and select **Quick Optimize.**
 1. This value will be entered into the **Manual Adjust** portion of the **Conditions** screen.
+
 #### DRC Mode QRO (Quadrupole Rod Offset)
 1. The value for the QRO is automatically set by the **DRC Mode CRO.**
 1. The value is set to -7 V lower than the determined value as shown below.  This relationship maintains the abundance sensitivity.
 <center>a. <i> QRO </i> = <i>CRO</i> - 7.0.</center>
 1. Save the conditions file as **default.dac.**
+
 #### DRC AFT (Axial Field Voltage)
 1. Aspirate the **AFT Multi-Element Solution.**
 1. Open the **Cell Path Voltage - Oxygen.mth** method in the Method screen.
@@ -305,8 +332,9 @@ In DRC mode, the cell is filled with a reactive gas so the necessary voltages wi
 1. Select **Maximum Intensity** under Optimization Criteria.
 1. Click **Optimize.**
 1. This value will be entered into the **Manual Adjust** portion of the **Conditions** screen.
-1. Save the conditions file as **default.dac.**
+1. Save the conditions file as **default.dac.*
 <div style="page-break-after: always;"></div>
+
 #### DRC Installation Performance Verification
 1. Aspirate the **O<sub>2</sub> Performance Check Solution.**
 1. Go back to the **SmartTune** window.
